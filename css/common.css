@@ -1,5 +1,12 @@
 body {
   font-family: "Pretendard Variable", sans-serif;
+  word-break: keep-all;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+img {
+  /* 이미지를 글자요소에서 박스요소로 변경 */
+  display: block;
 }
 .page-title {
   font-size: 50px;
